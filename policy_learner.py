@@ -66,6 +66,7 @@ class PolicyLearner:
         # 에이전트 초기 자본금 설정
         self.agent.set_balance(balance)
 
+
         # 학습에 대한 정보 초기화
         max_portfolio_value = 0
         epoch_win_cnt = 0
